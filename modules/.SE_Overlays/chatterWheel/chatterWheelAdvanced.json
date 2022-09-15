@@ -19,7 +19,6 @@
     "label": "Show Test Data On Load",
     "group": "Testing"
   },
-
   "wheelSize": {
     "type": "number",
     "label": "Wheel size (!900)",
@@ -44,7 +43,7 @@
     "value": "https://raw.githubusercontent.com/pjonp/pjTestBot/master/modules/.SE_Overlays/chatterWheel/assets/JayniusGamingTV_demo.webm",
     "group": "Visual Set Up"
   },
-    "foregroundVideoSizeFD": {
+  "foregroundVideoSizeFD": {
     "type": "slider",
     "label": "Video Size %",
     "value": 110,
@@ -74,7 +73,7 @@
   "foregroundImage": {
     "type": "image-input",
     "label": "Foreground Image",
-    "value": "https://raw.githubusercontent.com/pjonp/pjTestBot/master/modules/.SE_Overlays/chatterWheel/assets/streamElementsLogo.gif",
+    "value": "https://github.com/NKorp/GT10/blob/GT10/modules/.SE_Overlays/chatterWheel/assets/GT10.gif?raw=true",
     "group": "Visual Set Up"
   },
   "foregroundImageSizeFD": {
@@ -113,7 +112,6 @@
     "steps": 1,
     "group": "Visual Set Up"
   },
-
   "fontNameFD": {
     "type": "googleFont",
     "label": "Select a font:",
@@ -163,7 +161,6 @@
     "steps": 1,
     "group": "Visual Set Up"
   },
-
   "spinCommandFD": {
     "type": "text",
     "label": "Broadcaster Spin Command",
@@ -322,7 +319,6 @@
     "value": "!wheelword",
     "group": "Game Set Up"
   },
-
   "middleware1": {
     "type": "hidden",
     "label": "Middleware provided by lx",
@@ -333,7 +329,7 @@
     "label": "https://jebaited.net/tokens/ ->",
     "group": "Middleware Setup"
   },
-   "jebaitedAPITokenFD": {
+  "jebaitedAPITokenFD": {
     "type": "text",
     "label": "Token",
     "value": "need: botMsg",
@@ -376,23 +372,22 @@
     "steps": 1,
     "group": "Middleware Setup"
   },
-
   "frame1": {
     "type": "hidden",
     "label": "Animated gradient webcam frame",
     "group": "Animated Gradient Frame"
   },
   "frame2": {
-    "type":"hidden",
-    "label":"by Kagrayz",
+    "type": "hidden",
+    "label": "by Kagrayz",
     "group": "Animated Gradient Frame"
   },
   "mask": {
-     "type": "image-input",
-     "label": "Mask Image",
-     "value": "https://raw.githubusercontent.com/pjonp/pjTestBot/master/modules/.SE_Overlays/chatterWheel/assets/demo1.png",
-     "group": "Animated Gradient Frame"
-   },
+    "type": "image-input",
+    "label": "Mask Image",
+    "value": "https://raw.githubusercontent.com/pjonp/pjTestBot/master/modules/.SE_Overlays/chatterWheel/assets/demo1.png",
+    "group": "Animated Gradient Frame"
+  },
   "firstColor": {
     "type": "colorpicker",
     "label": "First color",
@@ -406,20 +401,20 @@
     "group": "Animated Gradient Frame"
   },
   "frameDuration": {
-  "type": "number",
+    "type": "number",
     "label": "Rotating duration, sec",
     "value": 2.5,
     "group": "Animated Gradient Frame"
   },
-   "gradientOverrideFD": {
-     "type": "slider",
-     "label": "Gradient Size Adjustment",
-     "value": 40,
-     "min": -100,
-     "max": 100,
-     "steps": 1,
-     "group": "Animated Gradient Frame"
-   },
+  "gradientOverrideFD": {
+    "type": "slider",
+    "label": "Gradient Size Adjustment",
+    "value": 40,
+    "min": -100,
+    "max": 100,
+    "steps": 1,
+    "group": "Animated Gradient Frame"
+  },
   "cacheMask": {
     "type": "checkbox",
     "label": "Cache mask",
